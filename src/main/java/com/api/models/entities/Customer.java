@@ -30,9 +30,6 @@ public class Customer {
     @Column(name = "last_name", nullable = false)
     private String lastName;
 
-    @Column(name = "dui", nullable = false, unique = true)
-    private String dui;
-
     @Column(name = "birth_date", nullable = false)
     private LocalDate birthDate;
 
